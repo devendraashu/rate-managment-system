@@ -17,7 +17,7 @@ public class RateManagementSystemApplication {
 		String[] beanDefinitionNames = run.getBeanDefinitionNames();
 		for (String bean : beanDefinitionNames) {
 
-			System.out.println(bean);
+			System.out.println("beans: "+ bean);
 		}
 
 	}
