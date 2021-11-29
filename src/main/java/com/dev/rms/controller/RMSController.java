@@ -20,8 +20,6 @@ import com.dev.rms.model.RateResponse;
 import com.dev.rms.model.VatSurcharge;
 import com.dev.rms.service.RateService;
 
-import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
-
 
 @RestController
 @RequestMapping("/rms")
@@ -43,7 +41,7 @@ public class RMSController {
 	}
 
 	@GetMapping("/rate/{id}")
-	@CircuitBreaker(name = "surcharge", fallbackMethod = "fallbackForSurcharge")
+	//@CircuitBreaker(name = "surcharge", fallbackMethod = "fallbackForSurcharge")
 	public RateResponse findRateById(@PathVariable("id") Long rateId) {
 		
 		logger.info("inside findRateById");
