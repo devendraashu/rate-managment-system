@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableFeignClients
 public class RateManagementSystemApplication {
+	
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run = SpringApplication.run(RateManagementSystemApplication.class, args);
