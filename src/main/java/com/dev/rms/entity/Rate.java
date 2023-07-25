@@ -23,8 +23,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Rate {
-
-	// unique id
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long rateId ;
