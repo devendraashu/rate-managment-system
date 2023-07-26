@@ -43,5 +43,7 @@ public ResponseEntity<ErrorDetails> handleFeignException(FeignException ex) {
 	
 }
 
+// Exception handling at common place
+
 
 }
