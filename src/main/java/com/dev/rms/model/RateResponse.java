@@ -12,7 +12,9 @@ import lombok.Data;
 public class RateResponse {
 	
 	private Rate rate;
-	private VatSurcharge surCharge; 
+	private VatSurcharge surCharge;
+
+	// pojo for rate
 	
 
 }
