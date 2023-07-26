@@ -18,6 +18,7 @@ public class RateManagementSystemApplication {
 		for (String bean : beanDefinitionNames) {
 
 			System.out.println(bean);
+			System.out.println("modified changes ");
 		}
 
 	}
