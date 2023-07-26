@@ -27,7 +27,8 @@ public class Rate {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long rateId ;
-	
+
+	// added comment
 	@Column(nullable = false)
 	private String rateDescription;
 	
